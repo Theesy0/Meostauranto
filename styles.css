@@ -1,8 +1,41 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header, footer{
     display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 16px;
+}
+
+.logo{
+    width: 50px;
+}
+
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.name{
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.intro{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 32px;
+}
+
+.big{
+    width: 500px;
 }
