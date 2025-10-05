@@ -79,6 +79,8 @@ ul{
     justify-content: center;
     gap: 64px;
     flex-wrap: wrap;
+    margin-bottom: 200px;
+    margin-top: 30px;
 }
 
 li{
@@ -91,6 +93,7 @@ h2{
     font-size: 36px;
     color: #433633;
     font-weight: 900;
+    margin-top: 50px;
 }
 
 .list.text{
