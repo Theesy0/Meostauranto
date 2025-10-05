@@ -10,7 +10,7 @@ header, footer{
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding: 10px 24px;
+    padding: 10px 200px;
     gap: 16px;
 }
 
@@ -33,9 +33,41 @@ a{
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    gap: 32px;
+    gap: 80px;
+    align-items: center;
+    padding: 100px 200px;
 }
 
 .big{
     width: 500px;
+    border-radius: 50px;
+}
+
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image{
+    width: 200px;
+    height: 400px;
+}
+
+ul{
+    list-style: none;
 }
