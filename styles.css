@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
 }
@@ -65,9 +65,54 @@ button{
 
 .image{
     width: 200px;
-    height: 400px;
+    height: 380px;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+li{
+    max-width: 200px;
+    flex: 1;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.list.text{
+    text-align:center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 60px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 8px;
 }
